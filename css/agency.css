@@ -14,7 +14,7 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: black;
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: black !important;
 }
 
 h1,
@@ -61,12 +61,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: black;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: black;
   text-shadow: none;
 }
 
@@ -93,13 +93,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: grey !important;
+  border-color: white !important;
   color: white;
 }
 
@@ -119,12 +119,12 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: black;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: white;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -142,7 +142,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: grey;
 }
 
 @media (min-width: 992px) {
@@ -165,7 +165,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -448,7 +448,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: black;
 }
 
 .timeline > li .timeline-image h4 {
@@ -619,7 +619,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: white;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -687,5 +687,14 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: black;
+}
+@media (max-width: 1200px) {
+  #mainNav {
+    background-color: black;
+    }
+  }
+.btn-primary {
+    background-color: black;
+    border-color: white;
 }
